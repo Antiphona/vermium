@@ -1,0 +1,95 @@
+body {
+    background-color: #81805E;
+}
+
+header {
+    padding: 40px;
+}
+
+h1 {
+    color: #FFC868;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.box {
+    display: flex;
+}
+
+h2, span {
+    font-family: 'Playfair Display', serif;
+}
+
+#mainnav {
+    display: flex;
+    flex: 0.25 1 200px;
+    box-sizing: border-box;
+}
+
+#mainnav a {
+    color: #FFC868;
+    font-variant: small-caps;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#mainnav li {
+    list-style-type: none;
+    line-height: 3.8;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 1 4 auto;
+    background-color: #B3A9A0;
+    box-sizing: border-box;
+    margin: auto 50px;
+    padding: 50px;
+    border: 2px solid maroon;
+}
+
+article h2 {
+    font-style: italic;
+}
+
+article span {
+    font-style: italic;
+    clear: both;
+    padding: 10px auto;
+    margin-bottom: 10px;
+}
+
+article img {
+    display: block;
+    width: 800px;
+    margin: 20px auto;
+    border: 2px black solid;
+}
+
+article p {
+    display: block;
+    width: 800px;
+    margin: 20px auto;
+    color: #FFFFFF;
+    background-color: #000000;
+    line-height: 1.8;
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navdraw ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #000000;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 40px;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+}
